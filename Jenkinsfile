@@ -4,7 +4,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    cd spring-petclinic
                     mvn clean package  
                 '''
             }
