@@ -1,7 +1,7 @@
 pipeline {
     agent any
         stage ('Initializing') {
-            git url: 'https://github.com/sharanreddy567/java-project.git'
+            git url: "https://github.com/sharanreddy567/java-project.git"
         stage ('Building') {
             steps {
                 sh '''
