@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Clone') {
-            steps {
-            git url: 'https://github.com/sharanreddy567/java-project.git'
-            }
-        }
         stage('Build') {
             steps {
                 sh '''
